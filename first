@@ -6,5 +6,5 @@ So here's our idea where our model will get to know the parking slots wheather e
 to enter this place and park their vehicle, this model will automatically detect the no.of parking slots available and if there's 
 any slot empty, this model will allot us with the nearest parking slot available like "Parking slot empty, go to A4".
 Dataset has been selected from roboflow.
-Created an ipynb file in which all the data cleaning and pre processing is done
+Created an ipynb file in which all the data cleaning and pre processing is done.
 Cleaning the dataset is successfully done through colab.
