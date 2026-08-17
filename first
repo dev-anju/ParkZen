@@ -9,4 +9,4 @@ Dataset has been selected from roboflow.
 Created an ipynb file in which all the data cleaning and pre processing is done.
 Cleaning the dataset is successfully done through colab
 Done with training the model.
-Testing the models with different images
+Testing the models with different images.
