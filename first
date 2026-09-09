@@ -11,4 +11,4 @@ Cleaning the dataset is successfully done through colab
 Done with training the model.
 Testing the models with different images.
 now we need to make the model robust..
-robust means making sure the mdoel works the best for any newly given images too but still figuring it out how!
+robust means making sure the mdoel works the best for any newly given images too but still figuring it out how
