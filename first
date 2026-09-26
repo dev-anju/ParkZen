@@ -17,5 +17,5 @@ Created an ipynb file in which all the data cleaning and pre processing is done.
 Cleaning the dataset is successfully done through colab
 Done with training the model.
 Testing the models with different images.
-now we need to make the model robust..
+now we need to make the model robust
 robust means making sure the model works the best for any new images too but still figuring it out how mathematical framework works
