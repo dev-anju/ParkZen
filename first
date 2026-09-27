@@ -9,6 +9,7 @@ The main problems are:
 - Increased traffic and congestion inside parking areas.
 - No real-time information about parking availability.
 - Difficulty in locating the nearest available slot.
+
 So here's our idea where our model will get to know the parking slots wheather empty or occupied through CCTV footages. If someone want
 to enter this place and park their vehicle, this model will automatically detect the no.of parking slots available and if there's 
 any slot empty, this model will allot us with the nearest parking slot available like "Parking slot empty, go to A4".
