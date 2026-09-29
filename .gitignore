@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+backend/parkzen.sqlite3
+backend/parkzen.sqlite3-*
+backend/uploads/
+backend/__pycache__/
+__pycache__/
