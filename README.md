@@ -23,11 +23,11 @@ The API defaults to `http://127.0.0.1:5000`; set `VITE_API_URL` to change the fr
 On first startup a manager account is created:
 
 - Email: `manager@parkzen.local`
-- Password: `ParkZen123!`
+- Password: `1234`
 
 Set `PARKZEN_MANAGER_PASSWORD` before first startup to choose the initial password. Change it before deployment. Passwords are stored as Werkzeug hashes; sessions use random bearer tokens stored in SQLite.
 
-An administrator account is also created on first startup (`admin@parkzen.local`, initial password `ParkZenAdmin123!`). Set `PARKZEN_ADMIN_PASSWORD` before first startup and change it before deployment. The admin interface provides account-directory and live availability summaries; it does not permit account role changes or destination edits.
+An administrator account is also created on first startup (`admin@parkzen.local`, initial password `1234`). Set `PARKZEN_ADMIN_PASSWORD` before first startup and change it before deployment. The admin interface provides account-directory and live availability summaries; it does not permit account role changes or destination edits.
 
 ## API overview
 

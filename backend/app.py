@@ -58,9 +58,9 @@ def initialize():
         for row in DESTINATIONS:
             conn.execute("INSERT OR IGNORE INTO destinations VALUES(?,?,?,?,?,?,?)", row)
         if not conn.execute("SELECT 1 FROM users WHERE role='manager'").fetchone():
-            conn.execute("INSERT INTO users(name,email,mobile,password,role,created_at) VALUES(?,?,?,?,?,?)", ("Parking Manager", "manager@parkzen.local", "", generate_password_hash(os.environ.get("PARKZEN_MANAGER_PASSWORD", "ParkZen123!")), "manager", now()))
+            conn.execute("INSERT INTO users(name,email,mobile,password,role,created_at) VALUES(?,?,?,?,?,?)", ("Parking Manager", "manager@parkzen.local", "", generate_password_hash(os.environ.get("PARKZEN_MANAGER_PASSWORD", "1234")), "manager", now()))
         if not conn.execute("SELECT 1 FROM users WHERE role='admin'").fetchone():
-            conn.execute("INSERT INTO users(name,email,mobile,password,role,created_at) VALUES(?,?,?,?,?,?)", ("ParkZen Administrator", "admin@parkzen.local", "", generate_password_hash(os.environ.get("PARKZEN_ADMIN_PASSWORD", "ParkZenAdmin123!")), "admin", now()))
+            conn.execute("INSERT INTO users(name,email,mobile,password,role,created_at) VALUES(?,?,?,?,?,?)", ("ParkZen Administrator", "admin@parkzen.local", "", generate_password_hash(os.environ.get("PARKZEN_ADMIN_PASSWORD", "1234")), "admin", now()))
 
 def load_model():
     global model
